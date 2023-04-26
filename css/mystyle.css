@@ -1,0 +1,140 @@
+#title{
+  background-color: #3C486B;
+  color: white;
+}
+
+h1{
+  font-family: 'Montserrat-Black',  sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15% ;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link{
+  font-size: 1.25rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+.title-image{
+  width: 100%;
+  position: relative;
+  left: 15%;
+  
+}
+
+@media (max-width: 990px) {
+  .title-image{
+      transform: rotate(0deg);
+  }
+}
+
+/* search bar */
+
+#search-bar{
+  background-color: white;
+  color: #3C486B;
+  padding: 3% 5% 3% 10%;
+  margin: auto;
+  align-items: center;
+  width: 10%;
+}
+
+.gcs-search-box{
+  width: 30%;
+}
+
+
+/* Features */
+
+
+#features{
+  padding: 7% 15%;
+  background-color: #F9D949;
+
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+h3{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 1.25rem;
+}
+
+p{
+  color: #3C486B;
+  font-weight: 100;
+}
+
+.icon{
+  color: #3C486B;
+  padding-bottom: 1rem;
+}
+
+.mission{
+  text-align: center;
+  font-family: "ubuntu";
+  padding: 3% 15%;
+}
+
+
+/* About US */
+
+#about{
+
+}
+
+.us{
+  text-align: center;
+  font-family: "ubuntu";
+  padding: 3% 15%;
+
+
+}
+
+img{
+  border-radius: 50%;
+  width: 30%;
+}
+
+.name-row{
+  width: 50%;
+  margin: 5% auto 5% auto;
+  text-align: center;
+  line-height: 2;
+}
+
+
+/* Footer */
+
+#footer{
+  text-align: center;
+  background-color: #F45050;
+  padding: 50px 0 20px;
+}
