@@ -64,6 +64,13 @@ body{
   width: 30%;
 }
 
+.search{
+  text-align: center;
+  font-family: "ubuntu";
+  padding: 3% 15%;
+
+}
+
 
 /* Features */
 
